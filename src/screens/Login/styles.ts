@@ -20,13 +20,15 @@ export const Container = styled(LinearGradient).attrs(({theme})=>({
 export const Imagem = styled.Image`
 
   width: 100%;
-  height: ${RFValue(364)}px;
+  //height: ${RFValue(364)}px;
+  flex: 1;
 
 `;
 
 export const Form = styled.View`
 
   margin-top: 10px;
+  margin-bottom: 48px;
   
 
 `;
@@ -43,7 +45,9 @@ export const ForgotPassword = styled.Text`
   margin-top: 4px;
   color: ${({theme}) => theme.COLORS.TITLE};
   font-family: ${({theme}) => theme.FONTS.TEXT};
-  font-size: ${({theme}) => theme.FONTS.TEXT};
+  font-size: ${RFValue(14)}px;
+  align-self: flex-end;
+  margin-bottom: 20px;
 
 `;
 

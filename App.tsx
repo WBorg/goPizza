@@ -3,6 +3,7 @@ import { ThemeProvider } from 'styled-components'
 import { Text, View } from 'react-native'
 import { useFonts, DMSans_400Regular } from '@expo-google-fonts/dm-sans'
 import { DMSerifDisplay_400Regular } from '@expo-google-fonts/dm-serif-display'
+import { Inter_400Regular } from '@expo-google-fonts/inter'
 
 import theme from './src/theme'
 import { Loading } from '@components/Loading'
@@ -11,7 +12,8 @@ import { Login } from '@screens/Login'
 export default function App() {
   const [fontsLoaded] = useFonts({
     DMSans_400Regular,
-    DMSerifDisplay_400Regular
+    DMSerifDisplay_400Regular,
+    Inter_400Regular
   })
 
   return (
