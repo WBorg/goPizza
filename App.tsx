@@ -7,7 +7,7 @@ import { Inter_400Regular } from '@expo-google-fonts/inter'
 
 import theme from './src/theme'
 import { Loading } from '@components/Loading'
-import { Splash } from '@screens/Splash'
+import { PizzaSize } from '@screens/PizzaSize'
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -20,7 +20,7 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <StatusBar style="light" backgroundColor="transparent" translucent />
 
-      {fontsLoaded ? <Splash /> : <Loading />}
+      {fontsLoaded ? <PizzaSize /> : <Loading />}
     </ThemeProvider>
   )
 }
