@@ -7,7 +7,7 @@ import { Inter_400Regular } from '@expo-google-fonts/inter'
 
 import theme from './src/theme'
 import { Loading } from '@components/Loading'
-import { Login } from '@screens/Login'
+import { Splash } from '@screens/Splash'
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -20,7 +20,7 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <StatusBar style="light" backgroundColor="transparent" translucent />
 
-      {fontsLoaded ? <Login /> : <Loading />}
+      {fontsLoaded ? <Splash /> : <Loading />}
     </ThemeProvider>
   )
 }
