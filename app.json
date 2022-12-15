@@ -1,10 +1,22 @@
 {
-  "expo": {
-    "name": "goPizza",
-    "slug": "goPizza",
-    "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "expo": {
+      "name": "goPizza",
+      "slug": "goPizza",
+      "version": "1.0.0",
+      "assetBundlePatterns": [
+        "**/*"
+      ],
+      "splash": {
+        "image": "./assets/splash.png",
+        "backgroundColor": "#E03F50",
+        "resizeMode": "cover"
+      },
+      "android": {
+        "adaptiveIcon": {
+          "foregroundImage": "./assets/adaptive-icon.png",
+          "backgroundColor": "#E03F50"
+        },
+        "package": "goPizza.com"
+    }
   }
 }
