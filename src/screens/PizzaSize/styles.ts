@@ -18,6 +18,9 @@ export const Main = styled.View`
   background-color: ${({theme})=> theme.COLORS.BACKGROUND};
   flex: 1;
   padding: 0 24px 18px;
+  padding-bottom: 18px;
+  
+
 `;
 
 export const Sizes = styled.View`
