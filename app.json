@@ -1,22 +1,27 @@
 {
-    "expo": {
-      "name": "goPizza",
-      "slug": "goPizza",
-      "version": "1.0.0",
-      "assetBundlePatterns": [
-        "**/*"
-      ],
-      "splash": {
-        "image": "./assets/splash.png",
-        "backgroundColor": "#E03F50",
-        "resizeMode": "cover"
+  "expo": {
+    "name": "goPizza",
+    "slug": "goPizza",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#E03F50",
+      "resizeMode": "cover"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#E03F50"
       },
-      "android": {
-        "adaptiveIcon": {
-          "foregroundImage": "./assets/adaptive-icon.png",
-          "backgroundColor": "#E03F50"
-        },
-        "package": "goPizza.com"
+      "package": "goPizza.com"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9ec00d39-3c6e-47b1-9e96-643fb3c505b1"
+      }
     }
   }
 }
